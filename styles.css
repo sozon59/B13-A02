@@ -143,9 +143,12 @@ p {
 /* About Podcust */
 .container{
     background-color: #1A0B2E;
-    width: 1600px;
+    width: 1200px;
     height: 646px;
-    padding: 50px 200px 120px 200px;
+    padding: 50px 200px 120px 200px; 
+    align-items: center; 
+    gap: 50px; 
+    margin: 0 auto;
 }
 .podcust-title{
     color: #FFFFFF;
@@ -228,6 +231,39 @@ p {
     line-height: 1.6;
     font-size: 14px;
 }
+/* Feautured Section */
+.feautured-grid{
+    background-color:rgba(83, 60, 114, 1) ;
+    
+}
+.featured-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+   
+}
+.featured-card{
+     background-color: #1a1433;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;
+}
+.featured-card p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+}
+.section-title{
+    color: #FFFFFF;
+    text-align: center;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
 /* Meet Host Section */
 .meet{
     
@@ -244,6 +280,7 @@ p {
     font-weight: 700;
     font-size: 3rem;
 }
+
 .meet-card p{
     color: #FFFFFF;
     font-weight: 400;
@@ -314,4 +351,52 @@ footer{
     align-items: center;
     gap: 8px;
     transition: 0.3s;
+}
+/* Media Quary */
+/* Header Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; 
+        gap: 15px;
+    }
+    
+    .nav-links {
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+        gap: 10px;
+    }
+}
+/* Feautured */
+@media (max-width: 768px) {
+    .techwave {
+        grid-template-columns: 1fr;
+    }
+    
+    .tech-card {
+        text-align: center; 
+        padding: 20px;
+    }
+}
+/* host */
+@media (max-width: 768px) {
+    .meet {
+        flex-direction: column; 
+        text-align: center;
+    }
+}
+/* Footer */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .social-link {
+        flex-direction: column;
+        display: flex;
+        gap: 10px;
+    }
 }
