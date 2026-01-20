@@ -9,19 +9,41 @@
 <body>
     <!-- Header -->
     <header>
-        <nav>
-            <h1>TechWave</h1>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Tech<span>Wave</span></h1>
+            </div>
             <ul class="nav-list">
-                <li>About</li>
-                <li>Episodes</li>
-                <li>Host</li>
+                <li><a href="">About</a></li>
+                <li><a href="">Episodes</a></li>
+                <li><a href="">Host</a></li>
             </ul>
-            <button class="btn-primary">Subscribe</button>
+            <button class="btn-primary">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
         </nav>
     </header>
     <!-- Hero Section -->
-     <section class="banner">
-        <img src="./assets/hero-bg.png" alt="">
-     </section>
+     <section class="hero-section">
+    <img src="./assets/hero-bg.png" alt="" class="wave-bg">
+
+    <div class="hero-content">
+        <div class="microphone">
+            <img src="./assets/hero-circle.png" alt="" class="hero-circle">
+            <img src="./assets/microphone.png" alt="" class="mic-icon">
+            <span class="badge-new">NEW</span>
+        </div>
+
+        <h1>TechWave</h1>
+        <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+
+        <div class="hero-buttons">
+            <a href="#" class="btn-spotify">
+                <img src="./assets/spotify.png" alt=""> Listen On Spotify
+            </a>
+            <a href="#" class="btn-subscribe">
+                <span>&#9993;</span> Subscribe
+            </a>
+        </div>
+    </div>
+</section>
 </body>
 </html>
