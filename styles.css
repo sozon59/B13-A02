@@ -226,3 +226,44 @@ p {
     line-height: 1.6;
     font-size: 14px;
 }
+/* Meet Host Section */
+.meet{
+    
+    background-color:rgba(83, 60, 114, 1) ;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+    
+}
+.meet-title{
+    color: #FFFFFF;
+    text-align: center;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.meet-card p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+}
+.host-card{
+    background-color: #1a1433;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 40px; 
+    display: flex; 
+    align-items: center;
+    gap: 40px; 
+    text-align: left;
+}
+.social-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    gap:15px;
+    font-size: 14px;
+}
