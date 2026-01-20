@@ -60,7 +60,7 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
 }
 
 
-.wave-bg {
+.hero-bg {
     position: absolute;
     width: 100%;
     z-index: 1;
@@ -139,4 +139,90 @@ p {
     border-radius: 30px;
     text-decoration: none;
     color: #00ff88;
+}
+/* About Podcust */
+.container{
+    background-color: #1A0B2E;
+    width: 1600px;
+    height: 646px;
+    padding: 50px 200px 120px 200px;
+}
+.podcust-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+}
+.podcust-describtion{
+    width: 1200px;
+    height: 148px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16PX;
+    line-height: 20PX;
+    text-align: center;
+}
+/* Card Section */
+.card-section{
+    display: flex;
+    justify-content: flex-start;
+    gap:5rem;
+    justify-content: center;
+}
+
+.card-title{
+    color: #00FF88;
+    width: 240px;
+    height: 58px;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 3.8rem;
+}
+/* TechWave  */
+.techwave{
+    
+    background-color: rgba(35, 14, 61, 1);
+    color: white;
+    text-align: center;
+    padding: 80px 50px;
+}
+.tech-title{
+    font-size: 3rem;
+    margin-bottom: 50px;
+   
+}
+.tech-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.tech-card{
+    background-color: #1a1433;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: left;
+    border: 1px solid #2d264d;
+    transition: 0.3s;
+}
+.feature-card:hover {
+    border-color: #ff33cc;
+}
+.big-card{
+    grid-row: span 2;
+}
+.small-card{
+    grid-column: span 2;
+    text-align: start;
+}
+.tech-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.tech-card p {
+    color: #a19db1;
+    line-height: 1.6;
+    font-size: 14px;
 }
